@@ -93,7 +93,7 @@ int main(){
     bind(server,(struct sockaddr*)&addr,sizeof(addr));
     listen(server,1);
 
-    printf("Server listening on port 8080...\n");
+    printf("Server listening on port 8080..\n");
 
     SOCKET client = accept(server,NULL,NULL);
 
